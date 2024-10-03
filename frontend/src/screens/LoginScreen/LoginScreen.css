@@ -1,0 +1,52 @@
+#exampleInputEmail1,
+#exampleInputPassword1 {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+label {
+  font-size: larger;
+}
+
+#exampleInputEmail1:focus {
+  box-shadow: 1px 1px 5px;
+}
+
+#exampleInputPassword1:focus {
+  box-shadow: 1px 1px 5px;
+}
+
+#loginscreen {
+  border: 3px solid var(--bs-purple);
+  padding: 60px;
+  box-shadow: 3px 3px 5px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+}
+
+#submit {
+  border-radius: 10px;
+  padding: 10px;
+  width: 280px;
+  font-size: 20px;
+}
+
+._8icz {
+  border-bottom: 2px solid #d3d5d8;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+  align-items: center;
+}
+
+#createAccount {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  width: 220px;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 10px;
+}

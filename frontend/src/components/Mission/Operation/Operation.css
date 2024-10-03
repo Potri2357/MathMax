@@ -1,0 +1,64 @@
+.addition {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Glegoo";
+  font-weight: 900;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  background-color: white;
+  border: 3px solid black;
+  padding: 120px;
+}
+
+#timer {
+  display: flex;
+  align-items: start;
+  font-family: "Orbitron";
+  font-size: 20px;
+  background-color: var(rgb(202, 196, 196));
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+  height: 50px;
+  width: 100px;
+  border: 3px solid black;
+}
+.question {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-size: 75px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  border: 3px solid var(black);
+  height: 75px;
+  font: "Orbitron";
+  width: 150px;
+  border-radius: 10px;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.answer:focus {
+  outline: none;
+  border: 5px solid var(black);
+  box-shadow: 3px 3px 5px var(black);
+}
+
+#score {
+  display: flex;
+  align-items: start;
+  margin-top: 10px;
+}
+
+.addition {
+  background-color: whitesmoke;
+}

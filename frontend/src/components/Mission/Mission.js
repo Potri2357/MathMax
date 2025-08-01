@@ -8,7 +8,7 @@ const Mission = () => {
         <a href="/mission/addition" id="additionLink">
           <img
             className="additionLogo"
-            src={require("D:/Programming/MathMax/frontend/src/images/add-button.png")}
+            src={require("../../images/add-button.png")}
           />
           <div>Addition</div>
         </a>
@@ -17,7 +17,7 @@ const Mission = () => {
         <a href="/mission/subtraction" id="subtractionLink">
           <img
             className="subtractionLogo"
-            src={require("D:/Programming/MathMax/frontend/src/images/minus-button.png")}
+            src={require("../../images/minus-button.png")}
           />
           <div>Subtraction</div>
         </a>
@@ -26,7 +26,7 @@ const Mission = () => {
         <a href="/mission/multiplication" id="multiplicationLink">
           <img
             className="multiplicationLogo"
-            src={require("D:/Programming/MathMax/frontend/src/images/cross-button.png")}
+            src={require("../../images/cross-button.png")}
           />
           <div>Multiplication</div>
         </a>
@@ -35,7 +35,7 @@ const Mission = () => {
         <a href="/mission/division" id="divisionLink">
           <img
             className="divisionLogo"
-            src={require("D:/Programming/MathMax/frontend/src/images/divide-button.png")}
+            src={require("../../images/divide-button.png")}
           />
           <div>Division</div>
         </a>

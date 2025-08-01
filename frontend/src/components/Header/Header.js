@@ -14,10 +14,7 @@ const Header = () => {
         data-bs-theme="dark"
       >
         <a class="navbar-brand" href="/">
-          <img
-            className="logo"
-            src={require("D:/Programming/MathMax/frontend/src/images/logo.png")}
-          />
+          <img className="logo" src={require("../../images/logo.png")} />
         </a>
         <div class="container-fluid me-5" style={{ width: "max-content" }}>
           <button
